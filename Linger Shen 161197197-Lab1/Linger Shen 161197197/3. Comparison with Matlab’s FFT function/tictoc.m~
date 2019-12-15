@@ -1,0 +1,7 @@
+function tictoc()
+for (n=1:64)
+tic;dft(ones(1,2^n));toc
+t(n)=toc;
+x(n)=n;
+end; 
+loglog(x,t
